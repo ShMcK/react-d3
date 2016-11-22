@@ -7,6 +7,11 @@
   "devDependencies": {
     "react-scripts": "0.7.0",
     "@kadira/storybook": "^2.21.0",
+    "@kadira/storybook-addon-comments": "^1.9.1",
+    "@kadira/storybook-addon-knobs": "^1.6.0",
+    "@kadira/storybook-database-cloud": "^2.3.2",
+    "storybook-host": "^1.0.7",
+    "storybook-readme": "^1.2.0",
     "babel-eslint": "7.0.0",
     "eslint": "3.8.1",
     "eslint-config-react-app": "^0.3.0",
