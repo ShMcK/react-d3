@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react'
 import { axis } from 'd3-axis'
 import { select } from 'd3-selection'
 
-class Grid extends Component {
+class D3Grid extends Component {
   static propTypes = {
     h: PropTypes.number,
     len: PropTypes.number,
@@ -41,4 +41,4 @@ class Grid extends Component {
   }
 }
 
-export default Grid
+export default D3Grid

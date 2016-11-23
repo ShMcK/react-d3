@@ -3,7 +3,7 @@ import { axis } from 'd3-axis'
 import { timeFormat } from 'd3-time-format'
 import { select } from 'd3-selection'
 
-class Axis extends Component {
+class D3Axis extends Component {
   static propTypes = {
     h: PropTypes.number,
     scale: PropTypes.func,
@@ -46,4 +46,4 @@ class Axis extends Component {
   }
 }
 
-export default Axis
+export default D3Axis
