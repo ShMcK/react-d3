@@ -1776,6 +1776,10 @@ d3-array@1, d3-array@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.0.1.tgz#375c02874fcd96c16ed9f1bcf5b4a7be53f358e7"
 
+d3-axis:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/d3-axis/-/d3-axis-1.0.4.tgz#bdfdcf5e859824062e0f17ad920f76236e72512c"
+
 d3-axis@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/d3-axis/-/d3-axis-1.0.3.tgz#ddcbd8a23c2a568d3787de0dee00a36413c5d595"
@@ -1902,6 +1906,10 @@ d3-scale@1.0.3:
     d3-time "1"
     d3-time-format "2"
 
+d3-selection:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/d3-selection/-/d3-selection-1.0.3.tgz#e63e51416172427854c1bcdfa066eb5fe872c108"
+
 d3-selection@1, d3-selection@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/d3-selection/-/d3-selection-1.0.2.tgz#ae662afd4702ac9c5da039b2107a1764fa1c9070"
@@ -1911,6 +1919,12 @@ d3-shape, d3-shape@1.0.3:
   resolved "https://registry.yarnpkg.com/d3-shape/-/d3-shape-1.0.3.tgz#bf685dcfc192ed1d35a39ff69826a409a9385034"
   dependencies:
     d3-path "1"
+
+d3-time-format:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/d3-time-format/-/d3-time-format-2.0.3.tgz#3241569b74ddc9c42e0689c0e8a903579fd6280a"
+  dependencies:
+    d3-time "1"
 
 d3-time-format@2, d3-time-format@2.0.2:
   version "2.0.2"
