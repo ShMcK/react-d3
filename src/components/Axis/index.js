@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react'
-import ReactDOM from 'react-dom'
 import { axis } from 'd3-axis'
 import { timeFormat } from 'd3-time-format'
 import { select } from 'd3-selection'
@@ -31,7 +30,7 @@ class Axis extends Component {
       this.axis.tickFormat(timeFormat(tickForm))
     }
 
-    const node = ReactDOM.findDOMNode(this)
+    const node = this.refs.axis
     select(node).call(this.axis)
 
   }
@@ -39,7 +38,8 @@ class Axis extends Component {
     const { h, className, axisType } = this.props
     const translate = `translate(0,${h})`
     return (
-      <g className={className}
+      <g ref='axis' 
+        className={className}
         transform={axisType === 'x' ? translate : ''}
         />
     )
